@@ -1,0 +1,74 @@
+.massageSend{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0.5rem;
+    align-items: center;
+}
+.massageReceive{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem;
+    align-items: center;
+}
+.massage_person{
+    display: grid;
+    place-items: center;
+}
+.user_name{
+    color: #4949ac;
+}
+.massageTextSend{
+    background-color: rgb(228, 228, 228);
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px 20px 5px 20px;
+    color: rgb(75, 75, 75);
+}
+.massageTextReceive{
+    background-color:rgb(228, 228, 228);
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px 20px 20px 5px;
+    color: rgb(75,75,75);
+}
+.chat_section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #1d1d1f;
+    background-color: white;
+}
+.massage_section{
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    scroll-behavior: smooth;
+}
+.massage_section::-webkit-scrollbar {
+    display: none;
+  }
+.massage_input{
+    display: flex;
+    width: 100%;
+}
+
+input{
+    flex: 0.8;
+    height: 3rem;
+    padding: 0 10px;
+    border-radius: 0 0 0 20px;
+    letter-spacing: 0.3px;
+    outline: none;
+    border: none;
+}
+.massage_btn{
+    flex: 0.2;
+    height: 3rem;
+    border-radius: 0 0 20px 0;
+    outline: none;
+    border: none;
+}
+.delete_btn{
+    border: none;
+    background-color: transparent;   
+}
